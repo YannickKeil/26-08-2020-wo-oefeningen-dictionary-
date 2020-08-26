@@ -39,5 +39,11 @@ namespace _26_08_2020_wo_oefeningen__dictionary_
             Oefening3 oef3 = new Oefening3();
             oef3.Show();
         }
+
+        private void btnOef4_Click(object sender, EventArgs e)
+        {
+            Oefening4 oef4 = new Oefening4();
+            oef4.Show();
+        }
     }
 }

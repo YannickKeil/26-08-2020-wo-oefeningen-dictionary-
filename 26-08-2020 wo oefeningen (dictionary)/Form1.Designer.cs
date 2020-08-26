@@ -31,6 +31,7 @@
             this.btnOef1 = new System.Windows.Forms.Button();
             this.btnOef2 = new System.Windows.Forms.Button();
             this.btnOef3 = new System.Windows.Forms.Button();
+            this.btnOef4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOef1
@@ -63,11 +64,22 @@
             this.btnOef3.UseVisualStyleBackColor = true;
             this.btnOef3.Click += new System.EventHandler(this.btnOef3_Click);
             // 
+            // btnOef4
+            // 
+            this.btnOef4.Location = new System.Drawing.Point(150, 246);
+            this.btnOef4.Name = "btnOef4";
+            this.btnOef4.Size = new System.Drawing.Size(111, 33);
+            this.btnOef4.TabIndex = 3;
+            this.btnOef4.Text = "Oefening 4";
+            this.btnOef4.UseVisualStyleBackColor = true;
+            this.btnOef4.Click += new System.EventHandler(this.btnOef4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOef4);
             this.Controls.Add(this.btnOef3);
             this.Controls.Add(this.btnOef2);
             this.Controls.Add(this.btnOef1);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Button btnOef1;
         private System.Windows.Forms.Button btnOef2;
         private System.Windows.Forms.Button btnOef3;
+        private System.Windows.Forms.Button btnOef4;
     }
 }
 
